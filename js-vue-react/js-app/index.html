@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js app</title>
+    <style>
+        .btn {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e5d605;
+            color: #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main style="text-align: center;">
+        <h1 style="color: #e5d605;">{{ name }}</h1>
+        <button onclick="changeName()" class="btn">Change name</button>
+        <button onclick="toggleVisibility()" class="btn">Show/Hide</button>
+    </main>
+    
+    <script>
+        var name = "Vanilla JavaScript App";
+        var isVisible = true;
+
+        document.querySelector('h1').textContent = name;
+        
+        function changeName() {
+            name = "Pure JavaScript App";
+            document.querySelector('h1').textContent = name;
+        }
+        
+        function toggleVisibility() {
+            isVisible = !isVisible;
+            document.querySelector('h1').style.display = isVisible ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
