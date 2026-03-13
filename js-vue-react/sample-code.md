@@ -9,7 +9,7 @@
     <h1></h1>
     
     <script>
-        var name = "Vanilla JavaScript App";
+        var name = "Vanilla Js Application";
         document.querySelector('h1').textContent = name;
     </script>
 </body>
