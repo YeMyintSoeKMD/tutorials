@@ -15,7 +15,7 @@
 </body>
 </html>
 ```
----
+
 **Vue Js**
 ```vue
 <template>
@@ -28,8 +28,6 @@ import { ref } from 'vue'
 const name = ref("Vue.js Application")
 </script>
 ```
-
----
 
 **React Js**
 ```ts
