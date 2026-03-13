@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1></h1>
-    
     <script>
         var name = "Vanilla Js Application";
         document.querySelector('h1').textContent = name;
@@ -24,7 +23,6 @@
 
 <script setup>
 import { ref } from 'vue'
-
 const name = ref("Vue.js Application")
 </script>
 ```
@@ -35,7 +33,6 @@ import { useState } from 'react'
 
 function App() {
   const [name, setName] = useState('React.js Application')
-
   return (
         <h1>{name}</h1>
     )
