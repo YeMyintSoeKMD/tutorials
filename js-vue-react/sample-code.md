@@ -30,13 +30,11 @@ const name = ref("Vue.js Application")
 **React Js**
 ```ts
 import { useState } from 'react'
-
 function App() {
   const [name, setName] = useState('React.js Application')
   return (
         <h1>{name}</h1>
     )
 }
-
 export default App
 ```
