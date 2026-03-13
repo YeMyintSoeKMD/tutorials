@@ -15,9 +15,7 @@
 </body>
 </html>
 ```
-
 ---
-
 **Vue Js**
 ```vue
 <template>
