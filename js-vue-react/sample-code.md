@@ -1,4 +1,4 @@
-# Vanilla Js
+**Vanilla Js**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@
 
 ---
 
-# Vue Js
+**Vue Js**
 ```vue
 <template>
     <h1>{{ name }}</h1>
@@ -33,7 +33,7 @@ const name = ref("Vue.js Application")
 
 ---
 
-# React Js
+**React Js**
 ```ts
 import { useState } from 'react'
 
